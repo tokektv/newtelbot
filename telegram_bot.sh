@@ -23,7 +23,7 @@ touch "$ACTIVE_ROUTERS_FILE"
 
 # Fungsi logging
 log() {
-    echo "$(date): $1" >> /tmp/telegram_bot.log
+    echo "$(date): $1" >> /etc/config/telegram_bot.log
 }
 
 # FUNGSI SEND_MESSAGE DENGAN UTF-8 FIX
